@@ -13,7 +13,7 @@ internal class MenuRegistrarBanda : Menu
         string nomeDaBanda = Console.ReadLine()!;
         Banda banda = new Banda(nomeDaBanda);
 
-        var client = new OpenAIAPI("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");
+        var client = new OpenAIAPI("[COLOQUE SUA KEY DA OPENAI AQUI]");
 
         var chat = client.Chat.CreateConversation();
 
